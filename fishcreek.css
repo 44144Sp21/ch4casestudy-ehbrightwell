@@ -3,25 +3,35 @@ body { background-color: #FFFFFF;
 	  font-family: Verdana, Arial, sans-serif;
 }
 header { background-color: #003366;
-       color: #AEC3E3;
+       color: #F0F0F0;
+    text-align: center
 	   font-family: Georgia, "Times New Roman", serif;
 }
-h1 { line-height: 200%; 
+h1 { line-height: 250%; 
     text-indent: 1em;}
-nav { font-weight: bold; }
+nav { font-weight: bold;
+        color: #5280C5;
+         text-align: center; 
+         padding: 5px}
 .category { font-weight: bold;
 			color: #5280C5;
-			 font-family: Georgia, "Times New Roman", serif; 
+			text-shadow: 1px 1px 1px #667;
+                font-family: Georgia, "Times New Roman", serif; 
 }
 dt { font-weight: bold;
      font-size: 1.1em;
 	 color: #5280C5;
-     font-family: Georgia, "Times New Roman", serif;	 
+     font-family: Georgia, "Times New Roman", serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 footer { font-size: .70em;
+        background-color: #F0F0F0;
+        text-align: center;
+        color: #AEC3E3; 
        font-style: italic;
 }		
-#wrapper { width: 80%;
+#wrapper { min-width: 700px;
            margin-right: auto;
 		   margin-left: auto;
 		   background-color: #F0F0F0;
